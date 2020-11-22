@@ -1,0 +1,95 @@
+html {
+  font-family: "Source Serif Pro", serif;
+	background-color: black;
+	color: white;
+}
+
+body {
+	width: 60rem;
+	margin: 20px auto 20px;
+	background-color: black;
+	padding: 10px 15px 20px 15px;
+	border: 0.1rem solid #00564F;
+}
+
+h1 {
+	border: 0.1rem solid #4300B7;
+	text-align: center;
+}
+
+
+nav a {
+	background-color: #001E28;
+	margin: 0 2.6rem;
+	border: 0.1rem solid pink;
+	padding: 0.4rem 0.5rem;
+	text-decoration: none;
+}
+
+nav li {
+	list-style: none;
+	display: inline-flex;
+	font-weight: bold;
+}
+
+p {
+  color: #FFB999;
+}
+
+h2 {
+	color: #99FFB9;
+	font-size: 1.2rem;
+}
+
+:any-link {
+	color: lightblue;
+}
+
+.hors {
+  background: linear-gradient(to right,
+      red, orange, yellow, green, blue, indigo, violet);
+}
+
+.hors-a {
+	color: black;
+}
+
+
+.platos { 
+  background: radial-gradient(blue, indigo, green);
+}
+
+.postres {
+  background: repeating-linear-gradient(45deg,
+      darkgreen, darkgreen 0.3rem, purple 0.1rem, purple 0.6rem);
+	color: white;
+}
+
+.pasteleria {
+	background: rgb(231,131,0);
+	background: linear-gradient(27deg, rgba(231,131,0,1) 0%, rgba(6,150,139,1) 35%, rgba(254,255,0,1) 100%); 
+	color: navy;
+}
+
+.main-nav a:hover {
+	background: #00564F;
+	color: white;
+}
+
+.front-bakery {
+	display: block;
+	margin: 0 auto;
+}
+
+.intro {
+	display: flex;
+}
+
+.intro1 {
+	margin: 0 10px;
+	width: 30%;
+}
+
+.emoji-wink {
+	margin: 0 0 -4px 0;
+}
